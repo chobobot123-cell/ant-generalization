@@ -1,0 +1,7 @@
+# IsaacLab_RS 프로젝트 루트에서 실행
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/evaluate_ant.py \
+  --task Isaac-Ant-v0 \
+  --num_envs 100 \
+  --seed 2026 \
+  --checkpoint submission/ant_C/model_999.pt \
+  --headless
